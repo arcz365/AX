@@ -98633,9 +98633,9 @@ l(){var s=this.d
 s.Z$=$.az()
 s.M$=0
 this.aJ()},
-P(a){var s=null,r=A.vV(s,!0,B.bK,!0,B.aAQ),q=A.aT(A.c3(!1,this.d,B.Rq,!0,s,s,!1,s,s,B.iz),400,1000),p=this.e,o=p?B.HX:B.Qt,n=A.a6(p?"Saving...":"Save Story",s,s,s,s,s,s)
+P(a){var s=null,r=A.vV(s,!0,B.bK,!0,B.aAP),q=A.aT(A.c3(!1,this.d,B.Rq,!0,s,s,!1,s,s,B.iz),400,1000),p=this.e,o=p?B.HX:B.Qt,n=A.a6(p?"Saving...":"Save Story",s,s,s,s,s,s)
 p=p?s:this.gaqS()
-return A.nH(r,s,A.dX(A.eh(A.bz(A.c([B.B,B.azR,B.ad,q,B.dM,A.Cr(o,n,p,A.cs(s,s,B.ah,s,s,s,s,s,s,s,s,B.at7,s,s,B.bB,s,s,s,s,s))],t.p),B.q,B.r,B.a9),s,s),s,s))}}
+return A.nH(r,s,A.dX(A.eh(A.bz(A.c([B.B,B.azQ,B.ad,q,B.dM,A.Cr(o,n,p,A.cs(s,s,B.ah,s,s,s,s,s,s,s,s,B.at7,s,s,B.bB,s,s,s,s,s))],t.p),B.q,B.r,B.a9),s,s),s,s))}}
 A.auy.prototype={
 $1(a){var s="value",r=a.a.a
 if(r.h(0,s)!=null&&t.f.b(r.h(0,s))){r=J.am(t.f.a(r.h(0,s)),"story")
@@ -98827,7 +98827,7 @@ vq(a,b){return this.RP(a,b,null)},
 S4(a,b,c){var s=null,r=c?s:b,q=A.cs(s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.cG(A.ey(4),B.t),s,s,s,s,s)
 return A.dX(A.aT(A.bM(!1,A.a6(a,s,s,s,s,s,s),s,s,s,s,s,s,r,s,q),48,240),s,s)},
 vy(a,b){return this.S4(a,b,!1)},
-P(a){var s,r,q,p,o=this,n=null,m="Delete Image",l=A.vV(n,!0,B.kj,n,B.aAt),k=t.p,j=A.fa(n,A.eh(A.bz(A.c([B.Qu,B.B,o.vq("News",0),o.vq("Upload Image",1),o.vq(m,2),o.vq("Special Spot",3),o.vq("Winners List",4),B.B,o.RP("Exit",5,new A.aug(a))],k),B.q,B.r,B.v),n,n),B.D,B.e_,n,n,n,n,n,B.e1,n,n,180),i=A.c([B.aBo,B.l1],k)
+P(a){var s,r,q,p,o=this,n=null,m="Delete Image",l=A.vV(n,!0,B.kj,n,B.aAs),k=t.p,j=A.fa(n,A.eh(A.bz(A.c([B.Qu,B.B,o.vq("News",0),o.vq("Upload Image",1),o.vq(m,2),o.vq("Special Spot",3),o.vq("Winners List",4),B.B,o.RP("Exit",5,new A.aug(a))],k),B.q,B.r,B.v),n,n),B.D,B.e_,n,n,n,n,n,B.e1,n,n,180),i=A.c([B.aBn,B.l1],k)
 if(o.ch===0)B.b.W(i,A.c([A.aT(A.c3(!1,o.d,B.Rd,!1,n,6,!1,n,n,n),n,600),B.B,o.vy("Send the News",o.gaqP()),B.a4,o.vy("Delete News",o.gafV())],k))
 if(o.ch===1){s=A.aT(A.c3(!1,o.e,B.R0,!1,n,1,!1,n,n,n),n,400)
 r=o.vy("Pick Image",o.gap0())
@@ -98839,15 +98839,15 @@ if(s!=null)q.push(new A.cn(B.Pg,A.a6("Selected: "+s.b,n,n,n,n,n,n),n))
 B.b.W(i,q)}if(o.ch===2)B.b.W(i,A.c([A.aT(A.c3(!1,o.e,B.Ru,!1,n,1,!1,n,n,n),n,400),B.dM,o.vy(m,o.gafU())],k))
 if(o.ch===3){s=A.c([B.a4,A.aT(A.c3(!1,o.y,B.Rs,!1,B.es,1,!1,n,n,n),n,400),B.dM,A.aT(A.c3(!1,o.z,B.Ro,!1,B.es,1,!1,n,n,n),n,400),B.B,o.vy("Create Special Spot",o.gafI()),B.l1],k)
 r=o.CW
-if(r!=null&&o.cx!=null)s.push(A.bz(A.c([B.aAl,B.dO,A.a6("Latitude: "+A.n(r),n,n,n,n,n,n),A.a6("Longitude: "+A.n(o.cx),n,n,n,n,n,n)],k),B.q,B.r,B.v))
-else s.push(B.aBk)
-B.b.W(i,s)}if(o.ch===4){s=A.c([B.B,B.aAH,B.B],k)
+if(r!=null&&o.cx!=null)s.push(A.bz(A.c([B.aAk,B.dO,A.a6("Latitude: "+A.n(r),n,n,n,n,n,n),A.a6("Longitude: "+A.n(o.cx),n,n,n,n,n,n)],k),B.q,B.r,B.v))
+else s.push(B.aBj)
+B.b.W(i,s)}if(o.ch===4){s=A.c([B.B,B.aAG,B.B],k)
 r=o.w.length
-if(r===0)s.push(B.aAW)
+if(r===0)s.push(B.aAV)
 else{q=A.aO1(B.hd)
 p=A.ey(6)
 s.push(A.fa(n,A.jJ(new A.auh(o),r,n,!0),B.D,n,B.Ki,new A.ez(n,n,q,p,n,n,B.bl),n,n,n,n,n,n,400))}s.push(B.B)
-s.push(A.co(A.c([A.aT(A.bM(!1,B.aBe,n,n,n,n,n,n,o.gaeH(),n,n),40,160),B.ath,A.aT(A.bM(!1,B.aAb,n,n,n,n,n,n,o.gafT(),n,A.cs(n,n,B.aN,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n)),40,120)],k),B.q,B.aK,B.v,0))
+s.push(A.co(A.c([A.aT(A.bM(!1,B.aBd,n,n,n,n,n,n,o.gaeH(),n,n),40,160),B.ath,A.aT(A.bM(!1,B.aAa,n,n,n,n,n,n,o.gafT(),n,A.cs(n,n,B.aN,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n)),40,120)],k),B.q,B.aK,B.v,0))
 s.push(B.B)
 r=o.x
 if(r!=null)s.push(A.a6("Selected Winner: "+r,n,n,n,B.avP,B.c6,n))
@@ -98887,7 +98887,7 @@ A.auj.prototype={
 $1(a){return a.length!==0},
 $S:22}
 A.au5.prototype={
-$1(a){return A.dv(A.c([A.cB(B.fI,new A.au3(a),null),A.cB(B.aA4,new A.au4(a),null)],t.p),B.aAq,B.IC)},
+$1(a){return A.dv(A.c([A.cB(B.fI,new A.au3(a),null),A.cB(B.aA3,new A.au4(a),null)],t.p),B.aAp,B.IC)},
 $S:11}
 A.au3.prototype={
 $0(){A.bl(this.a,!1).bO(!1)
@@ -99003,7 +99003,7 @@ case 3:n=b
 if(n!=null)p.H(new A.awS(p,n))
 case 1:return A.r(q,r)}})
 return A.t($async$zN,r)},
-P(a){var s,r,q=this,p=null,o=A.vV(p,!0,B.bK,p,B.aB8)
+P(a){var s,r,q=this,p=null,o=A.vV(p,!0,B.bK,p,B.aB7)
 if(q.e)s=B.h5
 else{s=q.f
 if(s.length!==0)s=A.dX(A.a6(s,p,p,p,p,p,p),p,p)
@@ -99218,21 +99218,21 @@ return A.r(null,r)}})
 return A.t($async$AJ,r)},
 P(a){var s,r,q,p,o,n,m,l,k=this,j=null,i=t.p,h=A.vV(A.c([A.cE(j,j,A.x_(B.hr,B.m,j,j),j,j,new A.ayP(a),j,j,"Help")],i),!0,B.bK,j,B.IB)
 if(k.ay)i=B.h5
-else{s=A.c([A.a6(k.a.c,j,j,j,B.b8,j,j),B.mq,B.aAo,A.a6("BTC Balance: \u20bf "+B.d.ag(k.y,5),j,j,j,j,j,j),B.iw,A.c3(!1,k.r,B.R3,!1,B.py,1,!1,k.gauS(),j,j),B.iw,A.a6("USD to pay: $"+B.d.ag(k.at,2),j,j,j,j,j,j),A.bM(!1,B.fJ,j,j,j,j,j,j,k.gLg(),j,j),B.mp,B.aBl,A.a6("ARCZ Balance: "+k.z,j,j,j,j,j,j),B.iw,A.c3(!1,k.w,B.Re,!1,B.es,1,!1,j,j,j),A.bM(!1,B.fJ,j,j,j,j,j,j,k.gLf(),j,j),B.mp,B.aAP,A.a6("Clicks: "+k.Q,j,j,j,j,j,j),B.iw,A.c3(!1,k.x,B.Rl,!1,B.es,1,!1,j,j,j),A.bM(!1,B.fJ,j,j,j,j,j,j,k.gauK(),j,j),B.mp,B.azX,B.iw],i)
+else{s=A.c([A.a6(k.a.c,j,j,j,B.b8,j,j),B.mq,B.aAn,A.a6("BTC Balance: \u20bf "+B.d.ag(k.y,5),j,j,j,j,j,j),B.iw,A.c3(!1,k.r,B.R3,!1,B.py,1,!1,k.gauS(),j,j),B.iw,A.a6("USD to pay: $"+B.d.ag(k.at,2),j,j,j,j,j,j),A.bM(!1,B.fJ,j,j,j,j,j,j,k.gLg(),j,j),B.mp,B.aBk,A.a6("ARCZ Balance: "+k.z,j,j,j,j,j,j),B.iw,A.c3(!1,k.w,B.Re,!1,B.es,1,!1,j,j,j),A.bM(!1,B.fJ,j,j,j,j,j,j,k.gLf(),j,j),B.mp,B.aAO,A.a6("Clicks: "+k.Q,j,j,j,j,j,j),B.iw,A.c3(!1,k.x,B.Rl,!1,B.es,1,!1,j,j,j),A.bM(!1,B.fJ,j,j,j,j,j,j,k.gauK(),j,j),B.mp,B.azW,B.iw],i)
 r=k.ax
 if(r!=null){q=A.aO1(B.fn)
 p=A.ey(6)
-s.push(A.fa(j,A.a6(r,j,j,j,j,j,j),B.D,j,j,new A.ez(j,j,q,p,j,j,B.bl),j,j,j,B.Ph,j,j,1/0))}else s.push(B.aB0)
+s.push(A.fa(j,A.a6(r,j,j,j,j,j,j),B.D,j,j,new A.ez(j,j,q,p,j,j,B.bl),j,j,j,B.Ph,j,j,1/0))}else s.push(B.aB_)
 s.push(B.a4)
 s.push(A.c3(!1,k.f,B.Rc,!1,j,1,!1,j,B.bq,j))
 s.push(B.a4)
-s.push(A.co(A.c([A.bM(!1,B.aAG,j,j,j,j,j,j,k.ga5w(),j,A.cs(j,j,j,j,j,j,j,j,j,j,j,j,B.rG,j,j,j,j,j,B.bq,j)),B.c5],i),B.q,B.r,B.v,0))
+s.push(A.co(A.c([A.bM(!1,B.aAF,j,j,j,j,j,j,k.ga5w(),j,A.cs(j,j,j,j,j,j,j,j,j,j,j,j,B.rG,j,j,j,j,j,B.bq,j)),B.c5],i),B.q,B.r,B.v,0))
 s.push(B.B)
 s.push(A.bM(!1,B.IA,j,j,j,j,j,j,new A.ayQ(a),j,A.cs(j,j,B.ah,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j)))
 s=A.fa(j,A.bz(s,B.am,B.r,B.v),B.D,B.j2,j,j,j,j,j,B.du,j,j,130)
 if(k.db)r="Loading..."
 else{r=k.cy
-if(r==null)r="No admin"}r=A.co(A.c([B.aB5,A.a6(r,j,j,j,B.ayo,j,j)],i),B.q,B.hO,B.v,0)
+if(r==null)r="No admin"}r=A.co(A.c([B.aB4,A.a6(r,j,j,j,B.ayo,j,j)],i),B.q,B.hO,B.v,0)
 q=A.c3(!1,j,B.R7,!1,j,1,!1,new A.ayR(k),j,j)
 p=k.CW
 if(p.a===0)p=B.qR
@@ -99246,7 +99246,7 @@ if(n.a===0)n=B.LW
 else{m=A.v(n).i("dS<1,2>")
 l=m.i("em<x.E,kk>")
 n=A.a5(new A.em(new A.aK(new A.dS(n,m),new A.ayV(),m.i("aK<x.E>")),new A.ayW(k),l),l.i("x.E"))
-n=A.aUv(n)}i=A.eh(A.co(A.c([s,B.IQ,A.hE(A.bz(A.c([r,B.a4,q,B.a4,p,B.mq,B.aAx,B.a4,o,B.a4,A.aT(n,300,j),B.B],i),B.am,B.r,B.v))],i),B.am,B.r,B.v,0),j,B.eS)}return A.nH(h,j,i)}}
+n=A.aUv(n)}i=A.eh(A.co(A.c([s,B.IQ,A.hE(A.bz(A.c([r,B.a4,q,B.a4,p,B.mq,B.aAw,B.a4,o,B.a4,A.aT(n,300,j),B.B],i),B.am,B.r,B.v))],i),B.am,B.r,B.v,0),j,B.eS)}return A.nH(h,j,i)}}
 A.ayz.prototype={
 $0(){var s=this.a
 s.cy=null
@@ -99360,7 +99360,7 @@ return null},
 $S:0}
 A.ayy.prototype={
 $1(a){var s=null,r=A.a6("Are you sure you want to delete '"+this.b+"'?",s,s,s,s,s,s),q=this.a
-return A.dv(A.c([A.cB(B.fI,new A.ayw(q),s),A.bM(!1,B.aBa,s,s,s,s,s,s,new A.ayx(q),s,s)],t.p),r,B.IC)},
+return A.dv(A.c([A.cB(B.fI,new A.ayw(q),s),A.bM(!1,B.aB9,s,s,s,s,s,s,new A.ayx(q),s,s)],t.p),r,B.IC)},
 $S:11}
 A.ayw.prototype={
 $0(){var s=this.a.c
@@ -99382,7 +99382,7 @@ A.ayO.prototype={
 $1(a){var s=null,r=A.kU(s,-1,s)
 r.R=new A.ayI()
 r=A.uF(A.c4(A.c([B.Ir,A.c4(s,s,s,s,s,r,s,s,B.dQ," learn more")],t.VO),s,s,s,s,s,s,s,B.fG,s),s)
-return A.dv(A.c([A.cB(B.le,new A.ayJ(this.a),s)],t.p),r,B.aA2)},
+return A.dv(A.c([A.cB(B.le,new A.ayJ(this.a),s)],t.p),r,B.aA1)},
 $S:11}
 A.ayI.prototype={
 $0(){A.oo(A.dD(u.a,0,null),B.dx)},
@@ -99576,8 +99576,8 @@ q=r.Q
 q.Z$=s
 q.M$=0
 r.aJ()},
-P(a){var s=this,r=null,q=t.p,p=A.vV(A.c([A.cE(r,r,A.x_(B.hr,B.m,r,r),r,r,new A.ayg(a),r,r,"Help")],q),!1,B.bK,r,B.IB),o=A.cb(a,r,t.w).w,n=A.a6(s.a.c,r,r,r,B.b8,r,r),m=A.a6("Bitcoin: \u20bf "+B.d.ag(s.at,6),r,r,r,B.bq,r,r),l=A.a6("ARCZ: "+s.ax,r,r,r,B.b8,r,r),k=A.c3(!1,s.e,B.R9,!1,B.py,1,!1,s.gauU(),B.bq,r),j=A.a6("USD to pay: $"+B.d.ag(s.ch,2),r,r,r,B.bq,r,r),i=A.bM(!1,B.aAv,r,r,r,r,r,r,s.gLg(),r,A.cs(r,r,r,r,r,r,r,r,r,r,r,B.l0,r,r,r,r,r,r,B.bq,r)),h=A.c3(!1,s.f,B.Rj,!1,B.es,1,!1,r,B.bq,r),g=A.bM(!1,B.aAn,r,r,r,r,r,r,s.gLf(),r,A.cs(r,r,r,r,r,r,r,r,r,r,r,B.l0,r,r,r,r,r,r,B.bq,r)),f=s.Q,e=A.c3(!1,f,B.Rf,!1,r,2,!1,r,B.bq,r),d=A.cs(r,r,r,r,r,r,r,r,r,r,r,B.l0,r,r,r,r,r,r,B.bq,r)
-n=A.aT(A.bz(A.c([n,B.ad,m,B.d8,l,B.OJ,B.aB4,B.d8,k,B.d8,j,B.d8,i,B.OI,B.aBq,B.d8,h,B.d8,g,B.ad,B.mr,B.aAr,B.d8,e,B.B,A.bM(!1,A.a6(f.a.a.length===0?"Add Card Info":"Update Card Info",r,r,r,r,r,r),r,r,r,r,r,r,s.ga5x(),r,d),B.atl,A.bM(!1,B.IA,r,r,r,r,r,r,new A.ayh(s,a),r,A.cs(r,r,B.ah,r,r,r,r,r,r,r,r,B.l0,r,r,r,r,r,r,B.bq,r))],q),B.am,B.r,B.v),r,140)
+P(a){var s=this,r=null,q=t.p,p=A.vV(A.c([A.cE(r,r,A.x_(B.hr,B.m,r,r),r,r,new A.ayg(a),r,r,"Help")],q),!1,B.bK,r,B.IB),o=A.cb(a,r,t.w).w,n=A.a6(s.a.c,r,r,r,B.b8,r,r),m=A.a6("Bitcoin: \u20bf "+B.d.ag(s.at,6),r,r,r,B.bq,r,r),l=A.a6("ARCZ: "+s.ax,r,r,r,B.b8,r,r),k=A.c3(!1,s.e,B.R9,!1,B.py,1,!1,s.gauU(),B.bq,r),j=A.a6("USD to pay: $"+B.d.ag(s.ch,2),r,r,r,B.bq,r,r),i=A.bM(!1,B.aAu,r,r,r,r,r,r,s.gLg(),r,A.cs(r,r,r,r,r,r,r,r,r,r,r,B.l0,r,r,r,r,r,r,B.bq,r)),h=A.c3(!1,s.f,B.Rj,!1,B.es,1,!1,r,B.bq,r),g=A.bM(!1,B.aAm,r,r,r,r,r,r,s.gLf(),r,A.cs(r,r,r,r,r,r,r,r,r,r,r,B.l0,r,r,r,r,r,r,B.bq,r)),f=s.Q,e=A.c3(!1,f,B.Rf,!1,r,2,!1,r,B.bq,r),d=A.cs(r,r,r,r,r,r,r,r,r,r,r,B.l0,r,r,r,r,r,r,B.bq,r)
+n=A.aT(A.bz(A.c([n,B.ad,m,B.d8,l,B.OJ,B.aB3,B.d8,k,B.d8,j,B.d8,i,B.OI,B.aBp,B.d8,h,B.d8,g,B.ad,B.mr,B.aAq,B.d8,e,B.B,A.bM(!1,A.a6(f.a.a.length===0?"Add Card Info":"Update Card Info",r,r,r,r,r,r),r,r,r,r,r,r,s.ga5x(),r,d),B.atl,A.bM(!1,B.IA,r,r,r,r,r,r,new A.ayh(s,a),r,A.cs(r,r,B.ah,r,r,r,r,r,r,r,r,B.l0,r,r,r,r,r,r,B.bq,r))],q),B.am,B.r,B.v),r,140)
 m=A.c3(!1,s.r,B.Rn,!1,r,1,!1,r,r,r)
 l=A.c3(!1,s.x,B.R4,!1,r,1,!1,r,r,r)
 k=A.c3(!1,s.y,B.Rg,!1,r,1,!1,r,r,r)
@@ -99602,7 +99602,7 @@ if(s.h(0,"value")!=null)this.a.Q.sc8(0,J.bd(s.h(0,"value")))},
 $S:170}
 A.ay4.prototype={
 $1(a){var s=null,r=new A.c_(B.N,$.az()),q=A.c3(!1,r,B.Rm,!1,B.es,1,!0,s,s,s)
-return A.dv(A.c([A.cB(B.fI,new A.ay2(a),s),A.bM(!1,B.azI,s,s,s,s,s,s,new A.ay3(this.a,r,a),s,s)],t.p),q,B.azW)},
+return A.dv(A.c([A.cB(B.fI,new A.ay2(a),s),A.bM(!1,B.azI,s,s,s,s,s,s,new A.ay3(this.a,r,a),s,s)],t.p),q,B.azV)},
 $S:11}
 A.ay2.prototype={
 $0(){return A.bl(this.a,!1).bO(!1)},
@@ -99639,7 +99639,7 @@ $0(){},
 $S:0}
 A.ayn.prototype={
 $1(a){var s=null,r=A.a6("Are you sure you want to delete '"+this.a+"'?",s,s,s,s,s,s)
-return A.dv(A.c([A.cB(B.fI,new A.ayl(a),s),A.cB(B.azS,new A.aym(a),s)],t.p),r,B.aAC)},
+return A.dv(A.c([A.cB(B.fI,new A.ayl(a),s),A.cB(B.azR,new A.aym(a),s)],t.p),r,B.aAB)},
 $S:11}
 A.ayl.prototype={
 $0(){A.bl(this.a,!1).bO(!1)
@@ -99659,7 +99659,7 @@ A.ayf.prototype={
 $1(a){var s=null,r=A.kU(s,-1,s)
 r.R=new A.ay9()
 r=A.uF(A.c4(A.c([B.Ir,A.c4(s,s,s,s,s,r,s,s,B.dQ," leran more")],t.VO),s,s,s,s,s,s,s,B.dc,s),s)
-return A.dv(A.c([A.cB(B.le,new A.aya(a),s)],t.p),r,B.aAi)},
+return A.dv(A.c([A.cB(B.le,new A.aya(a),s)],t.p),r,B.aAh)},
 $S:11}
 A.ay9.prototype={
 $0(){A.oo(A.dD(u.W,0,null),B.dx)},
@@ -99820,7 +99820,7 @@ m=s}else m=B.atn
 m=A.co(A.c([n,B.c5,m,B.c5,r.l4("5",120,120)],p),B.q,B.aK,B.v,0)
 n=A.co(A.c([r.l4("6",120,120),B.c5,r.l4("7",120,120),B.c5,r.l4("8",120,120)],p),B.q,B.aK,B.v,0)
 s=r.e
-p=A.c([A.eh(A.bz(A.c([B.B,o,B.B,m,B.B,n,B.l2,A.dX(A.p2(q,new A.AR(A.fa(q,B.azF,B.D,q,q,new A.ez(B.dq,q,q,A.ey(0),B.SV,q,B.bl),q,q,q,B.Pw,q,q,q),s,B.as,B.b_,q,q),B.aH,!1,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,r.gan8(),q,q,q,q,q,q),q,q),B.atj],p),B.q,B.r,B.v),q,q),A.pT(q,A.Cr(B.Qy,B.azY,r.garo(),A.cs(q,q,B.dq,q,q,q,q,q,q,q,q,q,q,q,B.bB,q,q,q,q,q)),q,q,10,q,10,q)],p)
+p=A.c([A.eh(A.bz(A.c([B.B,o,B.B,m,B.B,n,B.l2,A.dX(A.p2(q,new A.AR(A.fa(q,B.azF,B.D,q,q,new A.ez(B.dq,q,q,A.ey(0),B.SV,q,B.bl),q,q,q,B.Pw,q,q,q),s,B.as,B.b_,q,q),B.aH,!1,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,r.gan8(),q,q,q,q,q,q),q,q),B.atj],p),B.q,B.r,B.v),q,q),A.pT(q,A.Cr(B.Qy,B.azX,r.garo(),A.cs(q,q,B.dq,q,q,q,q,q,q,q,q,q,q,q,B.bB,q,q,q,q,q)),q,q,10,q,10,q)],p)
 o=r.w
 if(o.ao(0,"9"))p.push(A.pT(10,r.l4("9",80,80),q,q,10,q,q,q))
 if(o.ao(0,"10"))p.push(A.pT(10,r.l4("10",80,80),q,q,q,10,q,q))
@@ -99875,14 +99875,14 @@ $S:0}
 A.aKQ.prototype={
 $1(a){var s=this.b
 s=A.aT(A.jJ(new A.aKJ(s),s.length,null,!1),300,17976931348623157e292)
-return A.dv(A.c([A.cB(B.dR,new A.aKK(this.a),null)],t.p),s,B.aAh)},
+return A.dv(A.c([A.cB(B.dR,new A.aKK(this.a),null)],t.p),s,B.aAg)},
 $S:11}
 A.aKJ.prototype={
 $2(a,b){var s=null,r=this.a[b],q=J.a0(r),p=q.h(r,"winner")==="yes",o=p?B.qY:B.hb,n=p?B.ae:B.qU
 n=A.aSN(n,s,A.a6(""+(b+1),s,s,s,B.awr,s,s),s)
 q=J.bd(q.h(r,"name"))
 q=A.c([A.a6(q,s,s,s,A.jX(s,s,p?B.ae:B.m,s,s,s,s,s,s,s,s,s,s,s,B.a7,s,s,!0,s,s,s,s,s,s,s,s),s,s)],t.p)
-if(p)q.push(B.aAM)
+if(p)q.push(B.aAL)
 return A.fL(A.it(s,n,s,s,A.co(q,B.q,B.hO,B.v,0),s),o,s,B.rE,s)},
 $S:33}
 A.aKK.prototype={
@@ -99980,16 +99980,16 @@ else s=a===B.qn?B.lZ:B.hb
 s=A.cs(r,r,s,r,r,r,r,r,r,B.m,r,B.HS,r,r,r,r,r,r,r,r)
 return A.bM(!1,A.a6(b,r,r,r,r,r,r),r,r,r,r,r,r,new A.avi(this,a),r,s)},
 P(a){var s=this,r=null,q=t.p
-return A.nH(r,r,A.yc(!0,A.kP(B.cb,A.c([A.co(A.c([A.aT(A.fa(r,A.eh(A.bz(A.c([B.l2,B.aAj,B.B,s.vt(B.JN,"SignUp-User"),B.a4,s.vt(B.JO,"SignUp-Admin"),B.a4,s.vt(B.JQ,"Terms&Conditions"),B.a4,s.vt(B.JP,"Sign In"),B.a4,s.vt(B.qn,"Delete Account"),B.a4],q),B.eN,B.r,B.v),s.e,r),B.D,B.j2,r,r,r,r,r,r,r,r,r),1/0,165),A.hE(A.fa(r,A.eh(A.bz(A.c([A.hI("assets/images/hi.gif",B.be,150,150),B.B,s.adQ()],q),B.q,B.r,B.a9),r,r),B.D,r,r,r,r,r,r,B.jj,r,r,r))],q),B.q,B.r,B.v,0),A.pT(r,A.cE(r,r,B.tk,r,r,s.garj(),r,r,"Help"),r,r,r,10,10,r)],q),B.n,B.cl),B.aI,!0))},
+return A.nH(r,r,A.yc(!0,A.kP(B.cb,A.c([A.co(A.c([A.aT(A.fa(r,A.eh(A.bz(A.c([B.l2,B.aAi,B.B,s.vt(B.JN,"SignUp-User"),B.a4,s.vt(B.JO,"SignUp-Admin"),B.a4,s.vt(B.JQ,"Terms&Conditions"),B.a4,s.vt(B.JP,"Sign In"),B.a4,s.vt(B.qn,"Delete Account"),B.a4],q),B.eN,B.r,B.v),s.e,r),B.D,B.j2,r,r,r,r,r,r,r,r,r),1/0,165),A.hE(A.fa(r,A.eh(A.bz(A.c([A.hI("assets/images/hi.gif",B.be,150,150),B.B,s.adQ()],q),B.q,B.r,B.a9),r,r),B.D,r,r,r,r,r,r,B.jj,r,r,r))],q),B.q,B.r,B.v,0),A.pT(r,A.cE(r,r,B.tk,r,r,s.garj(),r,r,"Help"),r,r,r,10,10,r)],q),B.n,B.cl),B.aI,!0))},
 adQ(){var s,r=this,q=null
 switch(r.d.a){case 1:return r.S0(!1)
 case 2:return r.S0(!0)
 case 3:s=A.ey(0)
-return A.eh(A.fL(new A.cn(B.du,A.bz(A.c([B.aAA,B.B,A.c3(!1,r.f,B.jD,!1,q,1,!1,q,q,q),B.ad,A.c3(!1,r.r,B.nh,!1,q,1,!0,q,q,q),B.ad,A.bM(!1,B.aBX,q,q,q,q,q,q,r.garq(),q,A.cs(q,q,B.ah,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q))],t.p),B.am,B.r,B.v),q),B.e_,4,q,new A.cG(s,B.t)),q,q)
+return A.eh(A.fL(new A.cn(B.du,A.bz(A.c([B.aAz,B.B,A.c3(!1,r.f,B.jD,!1,q,1,!1,q,q,q),B.ad,A.c3(!1,r.r,B.nh,!1,q,1,!0,q,q,q),B.ad,A.bM(!1,B.aBX,q,q,q,q,q,q,r.garq(),q,A.cs(q,q,B.ah,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q))],t.p),B.am,B.r,B.v),q),B.e_,4,q,new A.cG(s,B.t)),q,q)
 case 4:s=A.ey(0)
 return A.eh(A.fL(new A.cn(B.du,A.bz(B.Sr,B.am,B.r,B.v),q),B.e_,4,q,new A.cG(s,B.t)),q,q)
-case 5:return A.fL(new A.cn(B.du,A.bz(A.c([B.aBV,B.B,A.c3(!1,r.f,B.jD,!1,q,1,!1,q,q,q),B.ad,A.c3(!1,r.r,B.nh,!1,q,1,!0,q,q,q),B.B,A.bM(!1,B.aBz,q,q,q,q,q,q,r.gaf8(),q,A.cs(q,q,B.ah,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q))],t.p),B.am,B.r,B.v),q),B.e_,4,q,B.bB)
-default:return B.aBv}},
+case 5:return A.fL(new A.cn(B.du,A.bz(A.c([B.aBV,B.B,A.c3(!1,r.f,B.jD,!1,q,1,!1,q,q,q),B.ad,A.c3(!1,r.r,B.nh,!1,q,1,!0,q,q,q),B.B,A.bM(!1,B.aBy,q,q,q,q,q,q,r.gaf8(),q,A.cs(q,q,B.ah,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q))],t.p),B.am,B.r,B.v),q),B.e_,4,q,B.bB)
+default:return B.aBu}},
 vG(a){return this.aft(a)},
 aft(a){var s=0,r=A.u(t.H),q,p,o,n,m,l,k,j
 var $async$vG=A.o(function(b,c){if(b===1)return A.q(c,r)
@@ -100105,7 +100105,7 @@ if(o){n.toString
 A.RC(n,A.iv(new A.avv(m),null,t.z))}else n.S(t.q).f.aP(A.ds(null,null,null,null,null,B.n,null,A.a6("Incorrect password!",null,null,null,null,null,null),null,B.w,null,null,null,null,null,null,null,null,null))}case 1:return A.r(q,r)}})
 return A.t($async$wy,r)}}
 A.avo.prototype={
-$1(a){return A.dv(A.c([A.cB(B.cJ,new A.avm(a),null),A.cB(B.aAK,new A.avn(this.a,a,this.b,this.c),null)],t.p),B.aBE,B.aA9)},
+$1(a){return A.dv(A.c([A.cB(B.cJ,new A.avm(a),null),A.cB(B.aAJ,new A.avn(this.a,a,this.b,this.c),null)],t.p),B.aBD,B.aA8)},
 $S:11}
 A.avm.prototype={
 $0(){A.bl(this.a,!1).bO(null)
@@ -101189,14 +101189,14 @@ if(n.p1){j=A.aL(B.d.aB(229.5),B.o.E()>>>16&255,B.o.E()>>>8&255,B.o.E()&255)
 i=A.ey(8)
 s=A.aO1(B.m)
 r=n.ok.length
-h.push(A.pT(m,A.fa(m,A.bz(A.c([B.aAJ,B.mr,A.hE(r===0?B.LN:A.aVO(A.jJ(new A.aDi(n),r,m,!1),m,!0))],l),B.am,B.r,B.v),B.D,m,m,new A.ez(j,m,s,i,m,m,B.bl),m,360,m,B.eS,m,m,260),m,m,m,10,100,m))}j=A.hE(A.kP(B.cb,h,B.n,B.cl))
+h.push(A.pT(m,A.fa(m,A.bz(A.c([B.aAI,B.mr,A.hE(r===0?B.LN:A.aVO(A.jJ(new A.aDi(n),r,m,!1),m,!0))],l),B.am,B.r,B.v),B.D,m,m,new A.ez(j,m,s,i,m,m,B.bl),m,360,m,B.eS,m,m,260),m,m,m,10,100,m))}j=A.hE(A.kP(B.cb,h,B.n,B.cl))
 i=A.aT(m,10,m)
 h=n.p?new A.aDj(a):m
 h=A.bM(!1,B.Qq,m,m,m,m,m,m,h,m,A.cs(m,m,B.m,m,m,m,m,m,m,m,m,B.HR,m,m,new A.cG(A.ey(2),B.t),m,m,m,m,m))
 s=n.p?new A.aDk(n):m
-s=A.bM(!1,B.azQ,m,m,m,m,m,m,s,m,A.cs(m,m,B.m,m,m,m,m,m,m,m,m,m,B.jj,m,B.iU,m,m,m,m,m))
+s=A.bM(!1,B.azP,m,m,m,m,m,m,s,m,A.cs(m,m,B.m,m,m,m,m,m,m,m,m,m,B.jj,m,B.iU,m,m,m,m,m))
 r=n.p?n.gaqh():m
-r=A.bz(A.c([i,h,B.B,s,B.B,A.bM(!1,B.aAR,m,m,m,m,m,m,r,m,A.cs(m,m,B.an1,m,m,m,m,m,m,m,m,B.at9,m,m,new A.cG(A.ey(2),B.t),m,m,m,m,m))],l),B.q,B.r,B.a9)
+r=A.bz(A.c([i,h,B.B,s,B.B,A.bM(!1,B.aAQ,m,m,m,m,m,m,r,m,A.cs(m,m,B.an1,m,m,m,m,m,m,m,m,B.at9,m,m,new A.cG(A.ey(2),B.t),m,m,m,m,m))],l),B.q,B.r,B.a9)
 s=n.p
 i=s?1:0.4
 h=A.co(A.c([n.AS("\u2191",n.aG,0,60,60)],l),B.q,B.aK,B.v,0)
@@ -101205,12 +101205,12 @@ p=n.p?n.galH():m
 o=A.cs(m,m,B.m,m,m,m,m,m,m,m,m,m,B.Pv,m,B.iU,m,m,m,m,m)
 i=A.aSi(!s,A.aPg(A.bz(A.c([h,B.a4,A.co(A.c([q,B.HV,A.bM(!1,A.a6("SPD x"+n.Z,m,m,m,B.Iy,m,m),m,m,m,m,m,m,p,m,o),B.HV,n.AS("\u2192",0,n.aG,60,60)],l),B.q,B.aK,B.v,0),B.a4,A.co(A.c([n.AS("\u2193",-n.aG,0,60,60)],l),B.q,B.aK,B.v,0)],l),B.q,B.r,B.a9),i))
 h=n.p?new A.aDl(n):m
-h=A.c([A.bM(!1,B.aBh,m,m,m,m,m,m,h,m,A.cs(m,m,B.m,m,m,m,m,m,m,m,m,B.atb,m,m,new A.cG(A.ey(0),B.t),m,m,m,m,m)),B.a4],l)
+h=A.c([A.bM(!1,B.aBg,m,m,m,m,m,m,h,m,A.cs(m,m,B.m,m,m,m,m,m,m,m,m,B.atb,m,m,new A.cG(A.ey(0),B.t),m,m,m,m,m)),B.a4],l)
 if(n.cx){s=A.bM(!1,B.aBG,m,m,m,m,m,m,new A.aDm(n),m,A.cs(m,m,B.m,m,m,m,m,m,m,m,m,B.l_,m,m,new A.cG(A.ey(2),B.t),m,m,m,m,m))
 q=A.cs(m,m,B.m,m,m,m,m,m,m,m,m,B.l_,m,m,new A.cG(A.ey(2),B.t),m,m,m,m,m)
 q=A.bM(!1,A.a6(n.z?"Rd":"St",m,m,m,B.iD,m,m),m,m,m,m,m,m,new A.aDn(n),m,q)
 p=A.cs(m,m,B.m,m,m,m,m,m,m,m,m,B.l_,m,m,new A.cG(A.ey(2),B.t),m,m,m,m,m)
-h.push(A.bz(A.c([s,B.a4,q,B.a4,A.bM(!1,A.a6(n.Q?"2D":"3D",m,m,m,B.iD,m,m),m,m,m,m,m,m,new A.aDo(n),m,p),B.a4,A.bM(!1,B.aA3,m,m,m,m,m,m,new A.aDp(n,a),m,A.cs(m,m,B.m,m,m,m,m,m,m,m,m,B.l_,m,m,new A.cG(A.ey(2),B.t),m,m,m,m,m))],l),B.q,B.r,B.a9))}return A.nH(m,m,A.bz(A.c([new A.cn(B.eS,k,m),j,new A.cn(B.PE,A.co(A.c([r,i,A.bz(h,B.q,B.r,B.a9)],l),B.eM,B.hO,B.v,0),m)],l),B.q,B.r,B.v))}}
+h.push(A.bz(A.c([s,B.a4,q,B.a4,A.bM(!1,A.a6(n.Q?"2D":"3D",m,m,m,B.iD,m,m),m,m,m,m,m,m,new A.aDo(n),m,p),B.a4,A.bM(!1,B.aA2,m,m,m,m,m,m,new A.aDp(n,a),m,A.cs(m,m,B.m,m,m,m,m,m,m,m,m,B.l_,m,m,new A.cG(A.ey(2),B.t),m,m,m,m,m))],l),B.q,B.r,B.a9))}return A.nH(m,m,A.bz(A.c([new A.cn(B.eS,k,m),j,new A.cn(B.PE,A.co(A.c([r,i,A.bz(h,B.q,B.r,B.a9)],l),B.eM,B.hO,B.v,0),m)],l),B.q,B.r,B.v))}}
 A.aCH.prototype={
 $0(){var s,r,q,p=null,o=this.a
 o.fr=this.b
@@ -101498,7 +101498,7 @@ $2(a,b){var s,r,q,p,o=null
 if(b.a===B.j8)return B.h5
 s=b.b
 r=s==null
-if(r||r)return A.dv(A.c([A.cB(B.dR,new A.aCW(a),o)],t.p),B.aAL,B.aAp)
+if(r||r)return A.dv(A.c([A.cB(B.dR,new A.aCW(a),o)],t.p),B.aAK,B.aAo)
 r=A.a6(s+"'s Story",o,o,o,o,o,o)
 q=$.ae
 p=(q==null?$.ae=$.bk():q).b1("[DEFAULT]")
@@ -101928,7 +101928,7 @@ s.aL=s.aL+this.b},
 $S:0}
 A.aC2.prototype={
 $1(a){var s=null,r=A.a6("You earned "+this.a+" coins!",s,s,s,s,s,s)
-return A.dv(A.c([A.cB(B.le,new A.aBr(a),s)],t.p),r,B.aAV)},
+return A.dv(A.c([A.cB(B.le,new A.aBr(a),s)],t.p),r,B.aAU)},
 $S:11}
 A.aBr.prototype={
 $0(){A.bl(this.a,!1).bO(null)
@@ -102002,7 +102002,7 @@ $S:0}
 A.aBQ.prototype={
 $1(a){var s=null,r=J.am(this.a,"news")
 r=A.a6(r==null?"No news available":r,s,s,s,s,s,s)
-return A.dv(A.c([A.cB(B.aBm,new A.aBz(a),s)],t.p),r,B.azU)},
+return A.dv(A.c([A.cB(B.aBl,new A.aBz(a),s)],t.p),r,B.azT)},
 $S:11}
 A.aBz.prototype={
 $0(){A.bl(this.a,!1).bO(null)
@@ -102441,7 +102441,7 @@ P(a){var s,r,q=this,p=null,o=A.a6("User Dashboard - "+q.a.d,p,p,p,B.lc,p,p),n=t.
 o=A.vV(A.c([A.cE(p,p,B.tk,p,p,q.gaox(),p,p,p)],n),!0,B.bK,!0,o)
 s=A.cb(a,p,t.w).w
 r=q.dy
-return A.nH(o,p,A.co(A.c([A.fa(p,A.bz(A.c([B.B,A.aSN(B.hd,r!=null?new A.nm(r,1):B.Jy,p,40),B.B,A.hE(A.eh(A.bz(A.c([q.pA("Welcome","welcome"),q.pA("Upload Image","upload"),q.pA("Tracking","tracking"),q.pA("Market","exchange"),q.pA("Matched Users","matched"),q.pA("Admins","admins"),q.pA("Go to Map","map")],n),B.q,B.r,B.v),p,p)),A.aT(A.bM(!1,B.aBs,p,p,p,p,p,p,new A.aF5(a),p,A.cs(p,p,B.aN,p,p,p,p,p,p,B.m,p,p,p,p,B.bB,p,p,p,p,p)),48,1/0),B.a4],n),B.q,B.r,B.v),B.D,B.hb,p,p,p,s.a.b,p,p,p,p,130),A.hE(A.eh(q.adP(),p,B.du))],n),B.q,B.r,B.v,0))},
+return A.nH(o,p,A.co(A.c([A.fa(p,A.bz(A.c([B.B,A.aSN(B.hd,r!=null?new A.nm(r,1):B.Jy,p,40),B.B,A.hE(A.eh(A.bz(A.c([q.pA("Welcome","welcome"),q.pA("Upload Image","upload"),q.pA("Tracking","tracking"),q.pA("Market","exchange"),q.pA("Matched Users","matched"),q.pA("Admins","admins"),q.pA("Go to Map","map")],n),B.q,B.r,B.v),p,p)),A.aT(A.bM(!1,B.aBr,p,p,p,p,p,p,new A.aF5(a),p,A.cs(p,p,B.aN,p,p,p,p,p,p,B.m,p,p,p,p,B.bB,p,p,p,p,p)),48,1/0),B.a4],n),B.q,B.r,B.v),B.D,B.hb,p,p,p,s.a.b,p,p,p,p,130),A.hE(A.eh(q.adP(),p,B.du))],n),B.q,B.r,B.v,0))},
 aoy(){var s=this.c
 s.toString
 A.dk(!0,new A.aEY(),s,t.z)},
@@ -102531,14 +102531,14 @@ r=e.dy
 if(r!=null)s.push(new A.ts(A.aPo(d,d,new A.nm(r,1)),150,150,B.be,d))
 else s.push(A.hI("assets/images/x.gif",B.be,150,150))
 s.push(B.B)
-s.push(A.aT(A.Cr(B.Qp,B.aBB,e.gaDg(),A.cs(d,d,d,d,d,d,d,d,d,d,d,d,d,d,B.bB,d,d,d,d,d)),48,200))
+s.push(A.aT(A.Cr(B.Qp,B.aBA,e.gaDg(),A.cs(d,d,d,d,d,d,d,d,d,d,d,d,d,d,B.bB,d,d,d,d,d)),48,200))
 return A.dX(A.bz(s,B.q,B.r,B.a9),d,d)
 case"tracking":s=A.hI("assets/images/map1.gif",B.be,300,300)
 r=A.cs(d,d,e.z?B.ae:B.aN,d,d,d,d,d,d,d,d,d,d,d,B.bB,d,d,d,d,d)
 return A.dX(A.bz(A.c([s,B.B,A.aT(A.bM(!1,A.a6(e.z?"Tracking ON":"Tracking OFF",d,d,d,B.dc,d,d),d,d,d,d,d,d,e.gasb(),d,r),48,200),B.B,A.a6("Steps: "+e.d,d,d,d,B.ld,d,d),A.a6("Clicks: "+e.e,d,d,d,B.et,d,d)],t.p),B.q,B.r,B.a9),d,d)
 case"exchange":s=A.aT(A.oF(A.hI("assets/images/market1.gif",B.be,d,d)),300,300)
 r=e.Q?e.gai5():d
-return A.dX(A.bz(A.c([s,B.B,A.aT(A.bM(!1,B.aB_,d,d,d,d,d,d,r,d,A.cs(d,d,d,d,d,d,d,d,d,d,d,d,d,d,B.bB,d,d,d,d,d)),48,200),B.B,A.a6("Clicks: "+e.e,d,d,d,B.et,d,d)],t.p),B.q,B.r,B.a9),d,d)
+return A.dX(A.bz(A.c([s,B.B,A.aT(A.bM(!1,B.aAZ,d,d,d,d,d,d,r,d,A.cs(d,d,d,d,d,d,d,d,d,d,d,d,d,d,B.bB,d,d,d,d,d)),48,200),B.B,A.a6("Clicks: "+e.e,d,d,d,B.et,d,d)],t.p),B.q,B.r,B.a9),d,d)
 case"matched":s={}
 r=$.az()
 q=new A.c_(B.N,r)
@@ -102553,15 +102553,15 @@ n=t.p
 m=A.co(A.c([A.aT(A.c3(!1,e.ch,B.jD,!1,d,1,!1,d,d,d),d,150),B.c5,A.aT(A.bM(!1,B.Iz,d,d,d,d,d,d,e.gaqO(),d,d),48,100)],n),B.q,B.r,B.a9,0)
 l=s.a.length===0
 k=A.aT(A.cE(d,d,B.Qs,18,d,l?d:e.gacw(),B.aI,d,"Accept All"),30,30)
-k=A.co(A.c([B.aAT,B.c5,k,A.aT(A.cE(d,d,B.Qo,18,d,l?d:e.gaps(),B.aI,d,"Reject All"),30,30)],n),B.q,B.aK,B.v,0)
+k=A.co(A.c([B.aAS,B.c5,k,A.aT(A.cE(d,d,B.Qo,18,d,l?d:e.gaps(),B.aI,d,"Reject All"),30,30)],n),B.q,B.aK,B.v,0)
 j=A.aT(A.c3(!1,q,B.R6,!1,d,1,!1,new A.aEn(new A.aEh(s,e,q)),d,d),d,380)
 l=s.a.length
 l=A.aT(l===0?B.LR:A.jJ(new A.aEo(s,e),l,d,!1),150,380)
-i=A.co(A.c([B.aAc,B.c5,A.aT(A.cE(d,d,B.tj,18,d,e.CW.length===0?d:new A.aEp(e),B.aI,d,"Cancel All"),30,30)],n),B.q,B.aK,B.a9,0)
+i=A.co(A.c([B.aAb,B.c5,A.aT(A.cE(d,d,B.tj,18,d,e.CW.length===0?d:new A.aEp(e),B.aI,d,"Cancel All"),30,30)],n),B.q,B.aK,B.a9,0)
 h=A.aT(A.c3(!1,p,B.Rw,!1,d,1,!1,new A.aEq(new A.aEk(s,e,p)),d,d),d,380)
 g=s.b.length
 i=A.dX(A.bz(A.c([i,B.a4,h,B.a4,A.aT(g===0?B.LS:A.jJ(new A.aEr(s,e),g,d,!1),150,380)],n),B.q,B.r,B.a9),d,d)
-h=A.co(A.c([B.aBC,B.c5,A.aT(A.cE(d,d,B.tj,18,d,s.c.length===0?d:e.gapu(),B.aI,d,"Remove All"),30,30)],n),B.q,B.aK,B.v,0)
+h=A.co(A.c([B.aBB,B.c5,A.aT(A.cE(d,d,B.tj,18,d,s.c.length===0?d:e.gapu(),B.aI,d,"Remove All"),30,30)],n),B.q,B.aK,B.v,0)
 g=A.aT(A.c3(!1,o,B.R8,!1,d,1,!1,new A.aEs(new A.aEe(s,e,o)),d,d),d,380)
 f=s.c.length
 return A.eh(A.bz(A.c([r,B.B,m,B.B,k,j,B.a4,l,B.B,i,B.B,h,g,B.a4,A.aT(f===0?B.LV:A.jJ(new A.aEt(s,e),f,d,!1),200,380)],n),B.q,B.r,B.a9),d,d)
@@ -102824,7 +102824,7 @@ return null},
 $S:0}
 A.aEy.prototype={
 $1(a){var s=null,r=A.a6(this.a,s,s,s,s,s,s)
-return A.dv(A.c([A.cB(B.cJ,new A.aEw(a),s),A.bM(!1,B.fK,s,s,s,s,s,s,new A.aEx(a),s,s)],t.p),r,B.aAF)},
+return A.dv(A.c([A.cB(B.cJ,new A.aEw(a),s),A.bM(!1,B.fK,s,s,s,s,s,s,new A.aEx(a),s,s)],t.p),r,B.aAE)},
 $S:11}
 A.aEw.prototype={
 $0(){A.bl(this.a,!1).bO(!1)
@@ -102903,7 +102903,7 @@ $1(a){return this.a.$0()},
 $S:13}
 A.aEt.prototype={
 $2(a,b){var s=null,r=this.a.c[b]
-return A.fL(A.it(s,s,s,s,A.a6(r,s,s,s,s,s,s),A.bM(!1,B.aA_,s,s,s,s,s,s,new A.aEa(this.b,r),s,A.cs(s,s,B.lZ,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s))),s,s,s,s)},
+return A.fL(A.it(s,s,s,s,A.a6(r,s,s,s,s,s,s),A.bM(!1,B.azZ,s,s,s,s,s,s,new A.aEa(this.b,r),s,A.cs(s,s,B.lZ,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s))),s,s,s,s)},
 $S:33}
 A.aEa.prototype={
 $0(){return this.a.rB(this.b)},
@@ -103412,7 +103412,7 @@ adX(){var s,r,q,p,o,n,m,l,k=this,j=null,i=k.e,h=i==null?j:i.b
 if(h==null)h="No file selected"
 i=A.dX(A.aT(A.oF(A.hI("assets/images/upload.gif",B.be,j,j)),150,150),j,j)
 s=t.p
-r=A.co(A.c([A.Cr(B.QA,B.aAX,k.gaDh(),j),B.atg,A.Cr(B.Qv,B.azL,k.gaDi(),j)],s),B.q,B.aK,B.v,0)
+r=A.co(A.c([A.Cr(B.QA,B.aAW,k.gaDh(),j),B.atg,A.Cr(B.Qv,B.azL,k.gaDi(),j)],s),B.q,B.aK,B.v,0)
 q=A.a6("Selected: "+h,j,j,j,j,B.c6,j)
 p=A.aT(A.c3(!1,k.r,B.Rb,!1,j,1,!1,j,j,j),j,300)
 o=A.aT(A.c3(!1,$.a5F(),B.tq,!1,j,1,!1,j,j,j),j,300)
@@ -103454,7 +103454,7 @@ n=m.z
 n===$&&A.b()
 return A.eh(A.bz(A.c([B.ad,k,B.B,s,B.ad,j,B.dO,q,B.ad,p,B.ad,A.kS(new A.aJI(m),A.Sz(n.a,n.b.yP(0,new A.np("orderByChild","timestamp"))).gdC(),r)],o),B.q,B.r,B.v),l,B.e1)},
 adw(){var s=null
-return A.eh(A.bz(A.c([B.B,A.dX(A.aT(A.oF(A.hI("assets/images/note.gif",B.be,s,s)),150,150),s,s),B.B,B.azM,B.B,A.aT(A.bM(!1,B.aBi,s,s,s,s,s,s,new A.aIO(this),s,A.cs(s,s,B.ah,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)),35,199),B.B],t.p),B.q,B.r,B.v),s,B.du)},
+return A.eh(A.bz(A.c([B.B,A.dX(A.aT(A.oF(A.hI("assets/images/note.gif",B.be,s,s)),150,150),s,s),B.B,B.aBF,B.B,A.aT(A.bM(!1,B.aBh,s,s,s,s,s,s,new A.aIO(this),s,A.cs(s,s,B.ah,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)),35,199),B.B],t.p),B.q,B.r,B.v),s,B.du)},
 adB(){var s,r,q,p,o,n,m=this,l=null,k=A.hI("assets/images/eventx1.gif",B.be,150,150),j=$.ae,i=(j==null?$.ae=$.bk():j).b1("[DEFAULT]")
 A.aG(i,$.bY(),!0)
 j=A.c7(new A.b9(i))
@@ -103478,7 +103478,7 @@ P(a){var s,r=this,q=null,p=r.fx
 if(p!=null){p=J.AG(J.rm(p),new A.aK6())
 r.dx=p.gt(p)}p=A.a6("Admin Dashboard - "+r.a.c+" (Followers: "+r.dx+")",q,q,q,B.lc,q,q)
 s=t.p
-return A.nH(A.vV(A.c([A.cE(q,q,A.x_(B.hr,B.m,q,q),q,q,new A.aK7(a),q,q,"Help")],s),!0,B.bK,!0,p),q,A.co(A.c([A.fa(q,A.bz(A.c([A.hE(A.eh(A.bz(A.c([r.nW(B.qe,"Upload Media"),r.nW(B.Jh,"Hotspots"),r.nW(B.Ji,"Hidden Circles"),r.nW(B.Jj,"Hyperloop"),r.nW(B.Jk,"Events"),r.nW(B.Jm,"Admin Story"),r.nW(B.Jn,"Clubs"),r.nW(B.Jl,"Market")],s),B.q,B.r,B.v),q,B.Pd)),new A.cn(B.e1,A.aT(A.bM(!1,B.aAu,q,q,q,q,q,q,new A.aK8(a),q,A.cs(q,q,B.aN,q,q,q,q,q,q,q,q,B.HS,q,q,q,q,q,q,q,q)),50,1/0),q)],s),B.q,B.r,B.v),B.D,B.j2,q,q,q,q,q,q,q,q,130),A.hE(new A.cn(B.e1,A.kP(B.cb,A.c([A.aVd(0,r.adR())],s),B.n,B.cl),q))],s),B.q,B.r,B.v,0))}}
+return A.nH(A.vV(A.c([A.cE(q,q,A.x_(B.hr,B.m,q,q),q,q,new A.aK7(a),q,q,"Help")],s),!0,B.bK,!0,p),q,A.co(A.c([A.fa(q,A.bz(A.c([A.hE(A.eh(A.bz(A.c([r.nW(B.qe,"Upload Media"),r.nW(B.Jh,"Hotspots"),r.nW(B.Ji,"Hidden Circles"),r.nW(B.Jj,"Hyperloop"),r.nW(B.Jk,"Events"),r.nW(B.Jm,"Admin Story"),r.nW(B.Jn,"Clubs"),r.nW(B.Jl,"Market")],s),B.q,B.r,B.v),q,B.Pd)),new A.cn(B.e1,A.aT(A.bM(!1,B.aAt,q,q,q,q,q,q,new A.aK8(a),q,A.cs(q,q,B.aN,q,q,q,q,q,q,q,q,B.HS,q,q,q,q,q,q,q,q)),50,1/0),q)],s),B.q,B.r,B.v),B.D,B.j2,q,q,q,q,q,q,q,q,130),A.hE(new A.cn(B.e1,A.kP(B.cb,A.c([A.aVd(0,r.adR())],s),B.n,B.cl),q))],s),B.q,B.r,B.v,0))}}
 A.aKa.prototype={
 $1(a){var s,r=a.gba().a.a.h(0,"value")
 if(r!=null&&t.f.b(r)){s=this.a
@@ -103489,7 +103489,7 @@ $0(){this.a.fx=this.b},
 $S:0}
 A.aJZ.prototype={
 $1(a){var s=null,r=A.c3(!1,this.a,B.tq,!1,s,3,!1,s,s,s)
-return A.dv(A.c([A.cB(B.fI,new A.aJX(a),s),A.bM(!1,B.aA8,s,s,s,s,s,s,new A.aJY(a),s,s)],t.p),r,B.aBb)},
+return A.dv(A.c([A.cB(B.fI,new A.aJX(a),s),A.bM(!1,B.aA7,s,s,s,s,s,s,new A.aJY(a),s,s)],t.p),r,B.aBa)},
 $S:11}
 A.aJX.prototype={
 $0(){A.bl(this.a,!1).bO(!1)
@@ -103530,7 +103530,7 @@ s.cy=null},
 $S:0}
 A.aKf.prototype={
 $1(a){var s=null
-return A.dv(A.c([A.cB(B.cJ,new A.aKd(a),s),A.bM(!1,B.pC,s,s,s,s,s,s,new A.aKe(a),s,A.cs(s,s,B.ah,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s))],t.p),B.aBI,B.aBA)},
+return A.dv(A.c([A.cB(B.cJ,new A.aKd(a),s),A.bM(!1,B.pC,s,s,s,s,s,s,new A.aKe(a),s,A.cs(s,s,B.ah,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s))],t.p),B.aBI,B.aBz)},
 $S:11}
 A.aKd.prototype={
 $0(){A.bl(this.a,!1).bO(!1)
@@ -103547,7 +103547,7 @@ s.cy=null},
 $S:0}
 A.aKj.prototype={
 $1(a){var s=null
-return A.dv(A.c([A.cB(B.cJ,new A.aKh(a),s),A.bM(!1,B.pC,s,s,s,s,s,s,new A.aKi(a),s,A.cs(s,s,B.ah,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s))],t.p),B.azN,B.aAS)},
+return A.dv(A.c([A.cB(B.cJ,new A.aKh(a),s),A.bM(!1,B.pC,s,s,s,s,s,s,new A.aKi(a),s,A.cs(s,s,B.ah,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s))],t.p),B.azM,B.aAR)},
 $S:11}
 A.aKh.prototype={
 $0(){A.bl(this.a,!1).bO(!1)
@@ -103740,7 +103740,7 @@ return A.t($async$$0,r)},
 $S:4}
 A.aJT.prototype={
 $2(a,b){var s,r,q,p,o=b.b
-if(o==null||o.gba().a.a.h(0,"value")==null)return B.aAd
+if(o==null||o.gba().a.a.h(0,"value")==null)return B.aAc
 s=t.f.a(o.gba().a.a.h(0,"value"))
 o=$.a5J().a.a
 r=J.ot(s)
@@ -104084,7 +104084,7 @@ r=n.h(s,"btc_balance")
 q=J.i8(r==null?0:r)
 n=n.h(s,"arcz_balance")
 p=J.at(n==null?0:n)
-return A.eh(A.bz(A.c([A.dX(A.aT(A.oF(A.hI("assets/images/market1.gif",B.be,o,o)),250,250),o,o),B.B,B.aBd,B.B,A.a6("Bitcoin balance: \u20bf "+B.d.ag(q,6),o,o,o,B.b8,o,o),B.a4,A.a6("TGT Pool balance: "+p+" ARCZ Coin (ZZC)",o,o,o,B.b8,o,o),B.B,A.aT(A.bM(!1,B.aAU,o,o,o,o,o,o,new A.aJ4(this.a,a),o,A.cs(o,o,B.ah,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o)),30,150)],t.p),B.q,B.r,B.a9),o,B.Pn)},
+return A.eh(A.bz(A.c([A.dX(A.aT(A.oF(A.hI("assets/images/market1.gif",B.be,o,o)),250,250),o,o),B.B,B.aBc,B.B,A.a6("Bitcoin balance: \u20bf "+B.d.ag(q,6),o,o,o,B.b8,o,o),B.a4,A.a6("TGT Pool balance: "+p+" ARCZ Coin (ZZC)",o,o,o,B.b8,o,o),B.B,A.aT(A.bM(!1,B.aAT,o,o,o,o,o,o,new A.aJ4(this.a,a),o,A.cs(o,o,B.ah,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o)),30,150)],t.p),B.q,B.r,B.a9),o,B.Pn)},
 $S:77}
 A.aJ4.prototype={
 $0(){var s=A.iv(new A.aJ3(this.a),null,t.z)
@@ -108678,29 +108678,29 @@ B.LL=new A.w5(null,null,null,null,null,null,null)
 B.LM=new A.Bp(null,null,null,null,null)
 B.aBU=new A.a_("No items yet",null,null,null,null,null,null,null,null)
 B.qR=new A.eZ(B.L,null,null,B.aBU,null)
-B.aBF=new A.a_("No hotspots",null,null,null,null,null,null,null,null)
-B.LN=new A.eZ(B.L,null,null,B.aBF,null)
-B.aAB=new A.a_("No hotspots yet",null,null,null,null,null,null,null,null)
-B.LO=new A.eZ(B.L,null,null,B.aAB,null)
-B.aAE=new A.a_("No hidden circles yet",null,null,null,null,null,null,null,null)
-B.LP=new A.eZ(B.L,null,null,B.aAE,null)
-B.aAD=new A.a_("No items match your search",null,null,null,null,null,null,null,null)
-B.LQ=new A.eZ(B.L,null,null,B.aAD,null)
+B.aBE=new A.a_("No hotspots",null,null,null,null,null,null,null,null)
+B.LN=new A.eZ(B.L,null,null,B.aBE,null)
+B.aAA=new A.a_("No hotspots yet",null,null,null,null,null,null,null,null)
+B.LO=new A.eZ(B.L,null,null,B.aAA,null)
+B.aAD=new A.a_("No hidden circles yet",null,null,null,null,null,null,null,null)
+B.LP=new A.eZ(B.L,null,null,B.aAD,null)
+B.aAC=new A.a_("No items match your search",null,null,null,null,null,null,null,null)
+B.LQ=new A.eZ(B.L,null,null,B.aAC,null)
 B.aFG=new A.aut(0,"material")
 B.M0=new A.w9(null,null)
 B.h5=new A.eZ(B.L,null,null,B.M0,null)
-B.aBc=new A.a_("No incoming requests.",null,null,null,null,null,null,null,null)
-B.LR=new A.eZ(B.L,null,null,B.aBc,null)
-B.aB7=new A.a_("No sent requests.",null,null,null,null,null,null,null,null)
-B.LS=new A.eZ(B.L,null,null,B.aB7,null)
-B.aBD=new A.a_("No Hyperloop yet",null,null,null,null,null,null,null,null)
-B.LT=new A.eZ(B.L,null,null,B.aBD,null)
-B.aAN=new A.a_("No story available.",null,null,null,null,null,null,null,null)
-B.LU=new A.eZ(B.L,null,null,B.aAN,null)
-B.aAg=new A.a_("No matches yet.",null,null,null,null,null,null,null,null)
-B.LV=new A.eZ(B.L,null,null,B.aAg,null)
-B.aB1=new A.a_("No items purchased",null,null,null,null,null,null,null,null)
-B.LW=new A.eZ(B.L,null,null,B.aB1,null)
+B.aBb=new A.a_("No incoming requests.",null,null,null,null,null,null,null,null)
+B.LR=new A.eZ(B.L,null,null,B.aBb,null)
+B.aB6=new A.a_("No sent requests.",null,null,null,null,null,null,null,null)
+B.LS=new A.eZ(B.L,null,null,B.aB6,null)
+B.aBC=new A.a_("No Hyperloop yet",null,null,null,null,null,null,null,null)
+B.LT=new A.eZ(B.L,null,null,B.aBC,null)
+B.aAM=new A.a_("No story available.",null,null,null,null,null,null,null,null)
+B.LU=new A.eZ(B.L,null,null,B.aAM,null)
+B.aAf=new A.a_("No matches yet.",null,null,null,null,null,null,null,null)
+B.LV=new A.eZ(B.L,null,null,B.aAf,null)
+B.aB0=new A.a_("No items purchased",null,null,null,null,null,null,null,null)
+B.LW=new A.eZ(B.L,null,null,B.aB0,null)
 B.azH=new A.a_("No events yet",null,null,null,null,null,null,null,null)
 B.LX=new A.eZ(B.L,null,null,B.azH,null)
 B.LY=new A.w7(null,null,null,null,null,null,null,null,null)
@@ -109125,8 +109125,8 @@ B.O=new A.M(0,0)
 B.PU=new A.Pe(B.O,B.O)
 B.t2=new A.Pg(0,"tight")
 B.ju=new A.Pg(1,"loose")
-B.aB6=new A.a_("I agree to Terms & Conditions",null,null,null,null,null,null,null,null)
-B.PV=new A.oU(1,B.ju,B.aB6,null)
+B.aB5=new A.a_("I agree to Terms & Conditions",null,null,null,null,null,null,null,null)
+B.PV=new A.oU(1,B.ju,B.aB5,null)
 B.PW=new A.CL(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.t3=new A.CM(0,"Start")
 B.jv=new A.CM(1,"Update")
@@ -109386,13 +109386,13 @@ B.S2=s([239,191,189],t.Y)
 B.Sq=s([4,9,14,19],t.Y)
 B.b0=new A.jB(6)
 B.iC=new A.z(!0,null,null,null,null,null,20,B.b0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aAe=new A.a_("Terms & Conditions",null,B.iC,null,null,null,null,null,null)
+B.aAd=new A.a_("Terms & Conditions",null,B.iC,null,null,null,null,null,null)
 B.ad=new A.dC(null,12,null,null)
 B.axR=new A.z(!0,null,null,null,null,null,14,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.azV=new A.a_("1. This is a beta version of the game to promote activity.\n2. ARCZ is not responsible for data loss or rewards.\n3. Coins may become real cryptocurrency rewards.\n4. Users must provide accurate information.\n5. Admin fees are non-refundable.\n6. Users are responsible for their account security.\n7. Sharing login credentials is prohibited.\n8. Misuse of the app may lead to account suspension.\n9. All transactions are final.\n10. ARCZ reserves the right to modify the app features.\n11. Users must comply with local laws.\n12. Inappropriate content is prohibited.\n13. The app collects activity data to calculate rewards.\n14. Users agree to the privacy policy.\n15. Admins must pay the signup fee to access advanced features.\n16. App updates may require re-login.\n17. Bugs and errors may occur; users report via support.\n18. Refunds for digital coins are not guaranteed.\n19. Promotional offers may change without notice.\n20. Users can delete their account at any time.\n21. ARCZ is not liable for third-party integrations.\n22. All intellectual property remains with ARCZ.\n23. Users consent to app notifications.\n24. Admin media uploads must follow copyright rules.\n25. Continued use of the app indicates acceptance of terms.\n",null,B.axR,null,null,null,null,null,null)
-B.at1=new A.FW(null,null,B.azV,null)
+B.azU=new A.a_("1. This is a beta version of the game to promote activity.\n2. ARCZ is not responsible for data loss or rewards.\n3. Coins may become real cryptocurrency rewards.\n4. Users must provide accurate information.\n5. Admin fees are non-refundable.\n6. Users are responsible for their account security.\n7. Sharing login credentials is prohibited.\n8. Misuse of the app may lead to account suspension.\n9. All transactions are final.\n10. ARCZ reserves the right to modify the app features.\n11. Users must comply with local laws.\n12. Inappropriate content is prohibited.\n13. The app collects activity data to calculate rewards.\n14. Users agree to the privacy policy.\n15. Admins must pay the signup fee to access advanced features.\n16. App updates may require re-login.\n17. Bugs and errors may occur; users report via support.\n18. Refunds for digital coins are not guaranteed.\n19. Promotional offers may change without notice.\n20. Users can delete their account at any time.\n21. ARCZ is not liable for third-party integrations.\n22. All intellectual property remains with ARCZ.\n23. Users consent to app notifications.\n24. Admin media uploads must follow copyright rules.\n25. Continued use of the app indicates acceptance of terms.\n",null,B.axR,null,null,null,null,null,null)
+B.at1=new A.FW(null,null,B.azU,null)
 B.ati=new A.dC(null,400,B.at1,null)
-B.Sr=s([B.aAe,B.ad,B.ati],t.p)
+B.Sr=s([B.aAd,B.ad,B.ati],t.p)
 B.TZ=s([137,80,78,71,13,10,26,10],t.Z)
 B.QK=new A.p7(0,"png")
 B.QT=new A.lI(B.QK,!1,0,"png")
@@ -113300,94 +113300,94 @@ B.att=new A.ma(3,"hide")
 B.aFD=new A.ma(4,"remove")
 B.I3=new A.ma(5,"timeout")
 B.atu=new A.yt(null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.azO=new A.a_("Invalid data. Example: portalX,-31,151,34,123",null,null,null,null,null,null,null,null)
-B.atv=new A.bW(B.azO,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aB2=new A.a_("Latitude or Longitude out of range",null,null,null,null,null,null,null,null)
-B.atw=new A.bW(B.aB2,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.azN=new A.a_("Invalid data. Example: portalX,-31,151,34,123",null,null,null,null,null,null,null,null)
+B.atv=new A.bW(B.azN,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aB1=new A.a_("Latitude or Longitude out of range",null,null,null,null,null,null,null,null)
+B.atw=new A.bW(B.aB1,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
 B.aBH=new A.a_("All sent requests cancelled",null,null,null,null,null,null,null,null)
 B.atx=new A.bW(B.aBH,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aAI=new A.a_("Invalid format: place,latitude,longitude,coins,news",null,null,null,null,null,null,null,null)
-B.aty=new A.bW(B.aAI,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aBr=new A.a_("\u2705 Event deleted",null,null,null,null,null,null,null,null)
-B.atz=new A.bW(B.aBr,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aBy=new A.a_("\u2705 All media deleted",null,null,null,null,null,null,null,null)
-B.atA=new A.bW(B.aBy,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aAs=new A.a_("\u274c Not enough ARCZ balance",null,null,null,null,null,null,null,null)
-B.I4=new A.bW(B.aAs,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aAz=new A.a_("\u2705 Upload deleted",null,null,null,null,null,null,null,null)
-B.atB=new A.bW(B.aAz,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aAf=new A.a_("Invalid data. Example: Park,52.52,13.40,100",null,null,null,null,null,null,null,null)
-B.atC=new A.bW(B.aAf,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aAw=new A.a_("\u274c Not enough BTC",null,null,null,null,null,null,null,null)
-B.atD=new A.bW(B.aAw,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aBw=new A.a_("Invalid format: name,lat1,lng1,lat2,lng2",null,null,null,null,null,null,null,null)
-B.atE=new A.bW(B.aBw,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aAH=new A.a_("Invalid format: place,latitude,longitude,coins,news",null,null,null,null,null,null,null,null)
+B.aty=new A.bW(B.aAH,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aBq=new A.a_("\u2705 Event deleted",null,null,null,null,null,null,null,null)
+B.atz=new A.bW(B.aBq,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aBx=new A.a_("\u2705 All media deleted",null,null,null,null,null,null,null,null)
+B.atA=new A.bW(B.aBx,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aAr=new A.a_("\u274c Not enough ARCZ balance",null,null,null,null,null,null,null,null)
+B.I4=new A.bW(B.aAr,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aAy=new A.a_("\u2705 Upload deleted",null,null,null,null,null,null,null,null)
+B.atB=new A.bW(B.aAy,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aAe=new A.a_("Invalid data. Example: Park,52.52,13.40,100",null,null,null,null,null,null,null,null)
+B.atC=new A.bW(B.aAe,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aAv=new A.a_("\u274c Not enough BTC",null,null,null,null,null,null,null,null)
+B.atD=new A.bW(B.aAv,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aBv=new A.a_("Invalid format: name,lat1,lng1,lat2,lng2",null,null,null,null,null,null,null,null)
+B.atE=new A.bW(B.aBv,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
 B.aBY=new A.a_("\u2705 Hidden Circle deleted",null,null,null,null,null,null,null,null)
 B.atF=new A.bW(B.aBY,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aA6=new A.a_("\u2705 Card info saved",null,null,null,null,null,null,null,null)
-B.atG=new A.bW(B.aA6,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aBj=new A.a_("\u2705 Hotspot saved",null,null,null,null,null,null,null,null)
-B.atH=new A.bW(B.aBj,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.azP=new A.a_("All requests accepted",null,null,null,null,null,null,null,null)
-B.atI=new A.bW(B.azP,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aBg=new A.a_("\u2705 Hidden Circle saved",null,null,null,null,null,null,null,null)
-B.atJ=new A.bW(B.aBg,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aBn=new A.a_("Invalid format: place,latitude,longitude,coins",null,null,null,null,null,null,null,null)
-B.atK=new A.bW(B.aBn,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.azT=new A.a_("\u2705 Profile image uploaded!",null,null,null,null,null,null,null,null)
-B.atL=new A.bW(B.azT,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aA5=new A.a_("\u2705 ARCZ purchased successfully",null,null,null,null,null,null,null,null)
-B.atM=new A.bW(B.aA5,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aBx=new A.a_("Enter a valid amount",null,null,null,null,null,null,null,null)
-B.atN=new A.bW(B.aBx,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aA5=new A.a_("\u2705 Card info saved",null,null,null,null,null,null,null,null)
+B.atG=new A.bW(B.aA5,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aBi=new A.a_("\u2705 Hotspot saved",null,null,null,null,null,null,null,null)
+B.atH=new A.bW(B.aBi,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.azO=new A.a_("All requests accepted",null,null,null,null,null,null,null,null)
+B.atI=new A.bW(B.azO,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aBf=new A.a_("\u2705 Hidden Circle saved",null,null,null,null,null,null,null,null)
+B.atJ=new A.bW(B.aBf,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aBm=new A.a_("Invalid format: place,latitude,longitude,coins",null,null,null,null,null,null,null,null)
+B.atK=new A.bW(B.aBm,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.azS=new A.a_("\u2705 Profile image uploaded!",null,null,null,null,null,null,null,null)
+B.atL=new A.bW(B.azS,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aA4=new A.a_("\u2705 ARCZ purchased successfully",null,null,null,null,null,null,null,null)
+B.atM=new A.bW(B.aA4,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aBw=new A.a_("Enter a valid amount",null,null,null,null,null,null,null,null)
+B.atN=new A.bW(B.aBw,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
 B.aBZ=new A.a_("Invalid format: name,latitude,longitude,news,coins",null,null,null,null,null,null,null,null)
 B.atO=new A.bW(B.aBZ,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aA7=new A.a_("Invalid data. Example: Concert,52.52,13.40,Live music,50",null,null,null,null,null,null,null,null)
-B.atP=new A.bW(B.aA7,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.azZ=new A.a_("Invalid latitude or longitude value",null,null,null,null,null,null,null,null)
-B.atQ=new A.bW(B.azZ,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aAZ=new A.a_("Invalid data. Example: Berlin,52.52,13.40,100,New cafe",null,null,null,null,null,null,null,null)
-B.atR=new A.bW(B.aAZ,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aAy=new A.a_("Special Spot created successfully!",null,null,null,null,null,null,null,null)
-B.atS=new A.bW(B.aAy,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aA0=new A.a_("\u274c Not enough ARCZ balance (1000 required)",null,null,null,null,null,null,null,null)
-B.I5=new A.bW(B.aA0,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aA6=new A.a_("Invalid data. Example: Concert,52.52,13.40,Live music,50",null,null,null,null,null,null,null,null)
+B.atP=new A.bW(B.aA6,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.azY=new A.a_("Invalid latitude or longitude value",null,null,null,null,null,null,null,null)
+B.atQ=new A.bW(B.azY,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aAY=new A.a_("Invalid data. Example: Berlin,52.52,13.40,100,New cafe",null,null,null,null,null,null,null,null)
+B.atR=new A.bW(B.aAY,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aAx=new A.a_("Special Spot created successfully!",null,null,null,null,null,null,null,null)
+B.atS=new A.bW(B.aAx,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aA_=new A.a_("\u274c Not enough ARCZ balance (1000 required)",null,null,null,null,null,null,null,null)
+B.I5=new A.bW(B.aA_,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
 B.aBL=new A.a_("\u2705 Hyperloop deleted",null,null,null,null,null,null,null,null)
 B.atT=new A.bW(B.aBL,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aAa=new A.a_("\u2705 BTC purchased successfully",null,null,null,null,null,null,null,null)
-B.atU=new A.bW(B.aAa,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aA9=new A.a_("\u2705 BTC purchased successfully",null,null,null,null,null,null,null,null)
+B.atU=new A.bW(B.aA9,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
 B.aBO=new A.a_("Please enter both latitude and longitude",null,null,null,null,null,null,null,null)
 B.atV=new A.bW(B.aBO,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aAm=new A.a_("\u2705 File uploaded successfully",null,null,null,null,null,null,null,null)
-B.atW=new A.bW(B.aAm,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aB9=new A.a_("\u2705 Story saved",null,null,null,null,null,null,null,null)
-B.atX=new A.bW(B.aB9,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aA1=new A.a_("Please enter a file name",null,null,null,null,null,null,null,null)
-B.atY=new A.bW(B.aA1,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aAl=new A.a_("\u2705 File uploaded successfully",null,null,null,null,null,null,null,null)
+B.atW=new A.bW(B.aAl,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aB8=new A.a_("\u2705 Story saved",null,null,null,null,null,null,null,null)
+B.atX=new A.bW(B.aB8,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aA0=new A.a_("Please enter a file name",null,null,null,null,null,null,null,null)
+B.atY=new A.bW(B.aA0,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
 B.aBM=new A.a_("\u274c Not enough ARCZ to buy clicks",null,null,null,null,null,null,null,null)
 B.atZ=new A.bW(B.aBM,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aBp=new A.a_("All requests rejected",null,null,null,null,null,null,null,null)
-B.au_=new A.bW(B.aBp,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aBo=new A.a_("All requests rejected",null,null,null,null,null,null,null,null)
+B.au_=new A.bW(B.aBo,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
 B.aBN=new A.a_("All winners deleted successfully",null,null,null,null,null,null,null,null)
 B.au0=new A.bW(B.aBN,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aBu=new A.a_("All matched users removed",null,null,null,null,null,null,null,null)
-B.au1=new A.bW(B.aBu,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aBt=new A.a_("All matched users removed",null,null,null,null,null,null,null,null)
+B.au1=new A.bW(B.aBt,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
 B.aBR=new A.a_("\u274c Invalid CVV",null,null,null,null,null,null,null,null)
 B.au2=new A.bW(B.aBR,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
 B.azG=new A.a_("\u2705 Event created (1000 ARCZ deducted)",null,null,null,null,null,null,null,null)
 B.au3=new A.bW(B.azG,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aBf=new A.a_("\u2705 Hyperloop saved (1000 ARCZ deducted)",null,null,null,null,null,null,null,null)
-B.au4=new A.bW(B.aBf,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aBt=new A.a_("Please write your story",null,null,null,null,null,null,null,null)
-B.au5=new A.bW(B.aBt,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aAO=new A.a_("\u2705 Hotspot deleted",null,null,null,null,null,null,null,null)
-B.au6=new A.bW(B.aAO,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aAY=new A.a_("Select crypto and enter amount",null,null,null,null,null,null,null,null)
-B.au7=new A.bW(B.aAY,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aAk=new A.a_("Could not open link",null,null,null,null,null,null,null,null)
-B.au8=new A.bW(B.aAk,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
-B.aB3=new A.a_("\u2705 Description updated",null,null,null,null,null,null,null,null)
-B.au9=new A.bW(B.aB3,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aBe=new A.a_("\u2705 Hyperloop saved (1000 ARCZ deducted)",null,null,null,null,null,null,null,null)
+B.au4=new A.bW(B.aBe,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aBs=new A.a_("Please write your story",null,null,null,null,null,null,null,null)
+B.au5=new A.bW(B.aBs,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aAN=new A.a_("\u2705 Hotspot deleted",null,null,null,null,null,null,null,null)
+B.au6=new A.bW(B.aAN,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aAX=new A.a_("Select crypto and enter amount",null,null,null,null,null,null,null,null)
+B.au7=new A.bW(B.aAX,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aAj=new A.a_("Could not open link",null,null,null,null,null,null,null,null)
+B.au8=new A.bW(B.aAj,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
+B.aB2=new A.a_("\u2705 Description updated",null,null,null,null,null,null,null,null)
+B.au9=new A.bW(B.aB2,null,null,null,null,null,null,null,null,null,null,null,null,B.w,null,null,null,B.n,null)
 B.I6=new A.G3(0,"permissive")
 B.aua=new A.G3(1,"normal")
 B.aub=new A.G3(2,"forced")
@@ -113791,98 +113791,98 @@ B.aw5=new A.z(!0,B.o,null,null,null,null,12,null,null,null,null,null,null,null,n
 B.azJ=new A.a_("SUPER ADMIN",null,B.aw5,null,null,null,null,null,null)
 B.azK=new A.a_("Confirm Purchase",null,null,null,null,null,null,null,null)
 B.azL=new A.a_("Pick Video",null,null,null,null,null,null,null,null)
-B.azM=new A.a_("Write your storyx",null,B.b8,B.c6,null,null,null,null,null)
-B.azN=new A.a_("Creating an event costs 1000 ARCZ.\nDo you want to continue?",null,null,null,null,null,null,null,null)
-B.azQ=new A.a_("G",null,B.Iv,null,null,null,null,null,null)
+B.azM=new A.a_("Creating an event costs 1000 ARCZ.\nDo you want to continue?",null,null,null,null,null,null,null,null)
+B.azP=new A.a_("G",null,B.Iv,null,null,null,null,null,null)
 B.Iu=new A.z(!0,null,null,null,null,null,22,B.b0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.azR=new A.a_("Write your story",null,B.Iu,null,null,null,null,null,null)
+B.azQ=new A.a_("Write your story",null,B.Iu,null,null,null,null,null,null)
 B.pB=new A.z(!0,B.aN,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.azS=new A.a_("Delete",null,B.pB,null,null,null,null,null,null)
-B.azU=new A.a_("Hotspot Visited!",null,null,null,null,null,null,null,null)
-B.azW=new A.a_("Enter CVV",null,null,null,null,null,null,null,null)
-B.azX=new A.a_("Bank Information",null,B.b8,null,null,null,null,null,null)
+B.azR=new A.a_("Delete",null,B.pB,null,null,null,null,null,null)
+B.azT=new A.a_("Hotspot Visited!",null,null,null,null,null,null,null,null)
+B.azV=new A.a_("Enter CVV",null,null,null,null,null,null,null,null)
+B.azW=new A.a_("Bank Information",null,B.b8,null,null,null,null,null,null)
 B.ayy=new A.z(!0,B.ae,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.azY=new A.a_("Winners",null,B.ayy,null,null,null,null,null,null)
+B.azX=new A.a_("Winners",null,B.ayy,null,null,null,null,null,null)
 B.cJ=new A.a_("No",null,null,null,null,null,null,null,null)
-B.aA_=new A.a_("Remove",null,null,null,null,null,null,null,null)
+B.azZ=new A.a_("Remove",null,null,null,null,null,null,null,null)
 B.axE=new A.z(!0,B.m,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.pC=new A.a_("Yes",null,B.axE,null,null,null,null,null,null)
-B.aA2=new A.a_("Market Help",null,null,null,null,null,null,null,null)
-B.aA3=new A.a_("Story",null,B.iD,null,null,null,null,null,null)
-B.aA4=new A.a_("Yes, Delete",null,B.pB,null,null,null,null,null,null)
-B.aA8=new A.a_("Save",null,null,null,null,null,null,null,null)
+B.aA1=new A.a_("Market Help",null,null,null,null,null,null,null,null)
+B.aA2=new A.a_("Story",null,B.iD,null,null,null,null,null,null)
+B.aA3=new A.a_("Yes, Delete",null,B.pB,null,null,null,null,null,null)
+B.aA7=new A.a_("Save",null,null,null,null,null,null,null,null)
 B.dR=new A.a_("Close",null,null,null,null,null,null,null,null)
-B.aA9=new A.a_("\u26a0 Confirm Deletion",null,null,null,null,null,null,null,null)
-B.aAb=new A.a_("Delete All",null,null,null,null,null,null,null,null)
-B.aAc=new A.a_("Requests Sent",null,B.b8,null,null,null,null,null,null)
-B.aAd=new A.a_("No media uploaded yet",null,null,null,null,null,null,null,null)
-B.aAh=new A.a_("\ud83c\udfc6 Winners List",null,null,null,null,null,null,null,null)
-B.aAi=new A.a_("Market Info",null,null,null,null,null,null,null,null)
-B.aAj=new A.a_("Welcome",null,B.b8,B.c6,null,null,null,null,null)
-B.aAl=new A.a_("Latest Special City Coordinates:",null,B.ld,null,null,null,null,null,null)
-B.aAn=new A.a_("Buy ARCZ",null,null,null,null,null,null,null,null)
-B.aAo=new A.a_("Buy Bitcoin",null,B.b8,null,null,null,null,null,null)
-B.aAp=new A.a_("Admin Story",null,null,null,null,null,null,null,null)
-B.aAq=new A.a_("Are you sure you want to delete all winners?",null,null,null,null,null,null,null,null)
-B.aAr=new A.a_("Card Information",null,B.b8,null,null,null,null,null,null)
-B.aAt=new A.a_("ARCZ-CEO Dashboard",null,null,null,null,null,null,null,null)
+B.aA8=new A.a_("\u26a0 Confirm Deletion",null,null,null,null,null,null,null,null)
+B.aAa=new A.a_("Delete All",null,null,null,null,null,null,null,null)
+B.aAb=new A.a_("Requests Sent",null,B.b8,null,null,null,null,null,null)
+B.aAc=new A.a_("No media uploaded yet",null,null,null,null,null,null,null,null)
+B.aAg=new A.a_("\ud83c\udfc6 Winners List",null,null,null,null,null,null,null,null)
+B.aAh=new A.a_("Market Info",null,null,null,null,null,null,null,null)
+B.aAi=new A.a_("Welcome",null,B.b8,B.c6,null,null,null,null,null)
+B.aAk=new A.a_("Latest Special City Coordinates:",null,B.ld,null,null,null,null,null,null)
+B.aAm=new A.a_("Buy ARCZ",null,null,null,null,null,null,null,null)
+B.aAn=new A.a_("Buy Bitcoin",null,B.b8,null,null,null,null,null,null)
+B.aAo=new A.a_("Admin Story",null,null,null,null,null,null,null,null)
+B.aAp=new A.a_("Are you sure you want to delete all winners?",null,null,null,null,null,null,null,null)
+B.aAq=new A.a_("Card Information",null,B.b8,null,null,null,null,null,null)
+B.aAs=new A.a_("ARCZ-CEO Dashboard",null,null,null,null,null,null,null,null)
 B.ayc=new A.z(!0,B.m,null,null,null,null,12,B.b0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aAu=new A.a_("Exit",null,B.ayc,null,null,null,null,null,null)
-B.aAv=new A.a_("Buy BTC",null,null,null,null,null,null,null,null)
+B.aAt=new A.a_("Exit",null,B.ayc,null,null,null,null,null,null)
+B.aAu=new A.a_("Buy BTC",null,null,null,null,null,null,null,null)
 B.iE=new A.a_("Extra Reward!",null,null,null,null,null,null,null,null)
-B.aAx=new A.a_("My List",null,B.iC,null,null,null,null,null,null)
-B.aAA=new A.a_("Sign In",null,B.iC,null,null,null,null,null,null)
-B.aAC=new A.a_("Delete item?",null,null,null,null,null,null,null,null)
+B.aAw=new A.a_("My List",null,B.iC,null,null,null,null,null,null)
+B.aAz=new A.a_("Sign In",null,B.iC,null,null,null,null,null,null)
+B.aAB=new A.a_("Delete item?",null,null,null,null,null,null,null,null)
 B.IA=new A.a_("Back",null,null,null,null,null,null,null,null)
-B.aAF=new A.a_("Confirm Action",null,null,null,null,null,null,null,null)
-B.aAG=new A.a_("Add/Edit",null,null,null,null,null,null,null,null)
+B.aAE=new A.a_("Confirm Action",null,null,null,null,null,null,null,null)
+B.aAF=new A.a_("Add/Edit",null,null,null,null,null,null,null,null)
 B.ay_=new A.z(!0,B.kj,null,null,null,null,22,B.b0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aAH=new A.a_("Winners List \ud83c\udf89",null,B.ay_,B.c6,null,null,null,null,null)
-B.aAJ=new A.a_("Hotspots",null,B.Is,null,null,null,null,null,null)
-B.aAK=new A.a_("Yes",null,B.pB,null,null,null,null,null,null)
-B.aAL=new A.a_("You are not following any admin.",null,null,null,null,null,null,null,null)
+B.aAG=new A.a_("Winners List \ud83c\udf89",null,B.ay_,B.c6,null,null,null,null,null)
+B.aAI=new A.a_("Hotspots",null,B.Is,null,null,null,null,null,null)
+B.aAJ=new A.a_("Yes",null,B.pB,null,null,null,null,null,null)
+B.aAK=new A.a_("You are not following any admin.",null,null,null,null,null,null,null,null)
 B.ax0=new A.z(!0,B.ae,null,null,null,null,null,B.b0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aAM=new A.a_("\ud83c\udfc6 Winner",null,B.ax0,null,null,null,null,null,null)
+B.aAL=new A.a_("\ud83c\udfc6 Winner",null,B.ax0,null,null,null,null,null,null)
 B.fI=new A.a_("Cancel",null,null,null,null,null,null,null,null)
-B.aAP=new A.a_("Buy Clicks",null,B.b8,null,null,null,null,null,null)
-B.aAQ=new A.a_("Admin Story",null,B.lc,null,null,null,null,null,null)
-B.aAR=new A.a_("Exit",null,B.iD,null,null,null,null,null,null)
-B.aAS=new A.a_("Confirm Event Creation",null,null,null,null,null,null,null,null)
-B.aAT=new A.a_("Requests Received",null,B.b8,null,null,null,null,null,null)
-B.aAU=new A.a_("Go to Market",null,B.fG,null,null,null,null,null,null)
-B.aAV=new A.a_("Hidden Circle Found!",null,null,null,null,null,null,null,null)
+B.aAO=new A.a_("Buy Clicks",null,B.b8,null,null,null,null,null,null)
+B.aAP=new A.a_("Admin Story",null,B.lc,null,null,null,null,null,null)
+B.aAQ=new A.a_("Exit",null,B.iD,null,null,null,null,null,null)
+B.aAR=new A.a_("Confirm Event Creation",null,null,null,null,null,null,null,null)
+B.aAS=new A.a_("Requests Received",null,B.b8,null,null,null,null,null,null)
+B.aAT=new A.a_("Go to Market",null,B.fG,null,null,null,null,null,null)
+B.aAU=new A.a_("Hidden Circle Found!",null,null,null,null,null,null,null,null)
 B.avK=new A.z(!0,B.fn,null,null,null,null,16,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aAW=new A.a_("No winners yet.",null,B.avK,B.c6,null,null,null,null,null)
-B.aAX=new A.a_("Pick Image",null,null,null,null,null,null,null,null)
-B.aB_=new A.a_("Go to Market",null,null,null,null,null,null,null,null)
-B.aB0=new A.a_("No bank info saved",null,null,null,null,null,null,null,null)
-B.aB4=new A.a_("Buy Bitcoin (Credit Card)",null,B.b8,null,null,null,null,null,null)
-B.aB5=new A.a_("Items",null,B.Iu,null,null,null,null,null,null)
-B.aB8=new A.a_("Buy Crypto",null,null,null,null,null,null,null,null)
-B.aBa=new A.a_("Delete",null,null,null,null,null,null,null,null)
-B.aBb=new A.a_("Edit Description",null,null,null,null,null,null,null,null)
-B.aBd=new A.a_("Market",null,B.b8,null,null,null,null,null,null)
-B.aBe=new A.a_("Random Winner",null,null,null,null,null,null,null,null)
+B.aAV=new A.a_("No winners yet.",null,B.avK,B.c6,null,null,null,null,null)
+B.aAW=new A.a_("Pick Image",null,null,null,null,null,null,null,null)
+B.aAZ=new A.a_("Go to Market",null,null,null,null,null,null,null,null)
+B.aB_=new A.a_("No bank info saved",null,null,null,null,null,null,null,null)
+B.aB3=new A.a_("Buy Bitcoin (Credit Card)",null,B.b8,null,null,null,null,null,null)
+B.aB4=new A.a_("Items",null,B.Iu,null,null,null,null,null,null)
+B.aB7=new A.a_("Buy Crypto",null,null,null,null,null,null,null,null)
+B.aB9=new A.a_("Delete",null,null,null,null,null,null,null,null)
+B.aBa=new A.a_("Edit Description",null,null,null,null,null,null,null,null)
+B.aBc=new A.a_("Market",null,B.b8,null,null,null,null,null,null)
+B.aBd=new A.a_("Random Winner",null,null,null,null,null,null,null,null)
 B.axH=new A.z(!0,B.o,null,null,null,null,26,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aBh=new A.a_("\u2193",null,B.axH,null,null,null,null,null,null)
-B.aBi=new A.a_("Go to Admin Story",null,B.fG,null,null,null,null,null,null)
+B.aBg=new A.a_("\u2193",null,B.axH,null,null,null,null,null,null)
+B.aBh=new A.a_("Go to Admin Story",null,B.fG,null,null,null,null,null,null)
 B.IB=new A.a_("Market",null,B.lc,null,null,null,null,null,null)
 B.az8=new A.z(!0,B.fn,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aBk=new A.a_("No Special City created yet.",null,B.az8,null,null,null,null,null,null)
-B.aBl=new A.a_("Buy ARCZ Coin",null,B.b8,null,null,null,null,null,null)
-B.aBm=new A.a_("Dismiss",null,null,null,null,null,null,null,null)
+B.aBj=new A.a_("No Special City created yet.",null,B.az8,null,null,null,null,null,null)
+B.aBk=new A.a_("Buy ARCZ Coin",null,B.b8,null,null,null,null,null,null)
+B.aBl=new A.a_("Dismiss",null,null,null,null,null,null,null,null)
 B.ax6=new A.z(!0,B.kj,null,null,null,null,26,B.b0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aBo=new A.a_("Welcome, ARCZ-CEO \ud83d\udc51",null,B.ax6,null,null,null,null,null,null)
+B.aBn=new A.a_("Welcome, ARCZ-CEO \ud83d\udc51",null,B.ax6,null,null,null,null,null,null)
 B.fJ=new A.a_("Buy",null,null,null,null,null,null,null,null)
-B.aBq=new A.a_("Buy ARCZ Coin (1 ARCZ = 0.0001 USD)",null,B.b8,null,null,null,null,null,null)
-B.aBs=new A.a_("Exit",null,B.b8,null,null,null,null,null,null)
+B.aBp=new A.a_("Buy ARCZ Coin (1 ARCZ = 0.0001 USD)",null,B.b8,null,null,null,null,null,null)
+B.aBr=new A.a_("Exit",null,B.b8,null,null,null,null,null,null)
 B.ayp=new A.z(!0,null,null,null,null,null,18,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aBv=new A.a_("Please select an option ",null,B.ayp,B.c6,null,null,null,null,null)
-B.aBz=new A.a_("Delete Account",null,null,null,null,null,null,null,null)
-B.aBA=new A.a_("Confirm Hyperloop Creation",null,null,null,null,null,null,null,null)
-B.aBB=new A.a_("Upload Profile Image",null,null,null,null,null,null,null,null)
-B.aBC=new A.a_("Matched Users",null,B.b8,null,null,null,null,null,null)
-B.aBE=new A.a_("Are you sure you want to delete this account permanently?",null,null,null,null,null,null,null,null)
+B.aBu=new A.a_("Please select an option ",null,B.ayp,B.c6,null,null,null,null,null)
+B.aBy=new A.a_("Delete Account",null,null,null,null,null,null,null,null)
+B.aBz=new A.a_("Confirm Hyperloop Creation",null,null,null,null,null,null,null,null)
+B.aBA=new A.a_("Upload Profile Image",null,null,null,null,null,null,null,null)
+B.aBB=new A.a_("Matched Users",null,B.b8,null,null,null,null,null,null)
+B.aBD=new A.a_("Are you sure you want to delete this account permanently?",null,null,null,null,null,null,null,null)
+B.aBF=new A.a_("Write your story",null,B.b8,B.c6,null,null,null,null,null)
 B.aBG=new A.a_("HS",null,B.iD,null,null,null,null,null,null)
 B.IC=new A.a_("Confirm Delete",null,null,null,null,null,null,null,null)
 B.aBI=new A.a_("Creating or editing a Hyperloop costs 1000 ARCZ.\nDo you want to continue?",null,null,null,null,null,null,null,null)
